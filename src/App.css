@@ -1,0 +1,35 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  height: 100%;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1em;
+}
+table {
+  width: 100%;
+}
+
+.color {
+  background-color: #333;
+}
+
+.light {
+  background-color: #555;
+}
+
+tr>td>img {
+
+  border-radius: 50%;
+}
